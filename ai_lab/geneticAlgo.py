@@ -83,12 +83,12 @@ crossed = sample.copy()
 for i in range(m):
     decimal,fitness,probability,expected,actual = generation_table(crossed,n)
     if sum(actual)<n:
-        m = max(actual)
-        index = actual.index(m-1)
+        ma = max(actual)
+        index = actual.index(ma-1)
         actual[index] +=1
     if sum(actual)>n:
-        m = max(actual)
-        index = actual.index(m)
+        ma = max(actual)
+        index = actual.index(ma)
         actual[index] +=1
     print("\n----------------------------------------------- GENERATION ", i, "-----------------------------------------------")
     print("Initial Population\tX Value\t\tFitness Value\tProbability\tExpected Count\t\tActual Count")
