@@ -1,0 +1,24 @@
+{
+    "users":{
+        "001":{
+            "name":"rishab",
+            "email":"rishabpendam@gmail.com",
+            "phone":"8779723022",
+            "address":{
+                "city":"thane",
+                "state":"MH",
+                "zip":"400607"
+            }
+        },
+        "002":{
+            "name":"mahek",
+            "email":"mahekupadhye@gmail.com",
+            "phone":"8291002606",
+            "address":{
+                "city":"loki",
+                "state":"MH",
+                "zip":"400061"
+            }
+        }
+    }
+}
